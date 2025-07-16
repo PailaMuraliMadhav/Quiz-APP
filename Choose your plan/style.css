@@ -1,0 +1,85 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #0f0f0f;
+    color:#fff;
+    text-align: center;
+    font-size: 1.2rem;
+    margin:0;
+}
+
+.container{
+    padding:20px 50px;
+}
+h1{
+    color:#00ff84;
+    margin-bottom: 10px;
+}
+.price {
+  font-size: 20px;
+  margin: 10px 0 20px;
+}
+
+.price span {
+  font-size: 36px;
+  font-weight: bold;
+}
+.plan ul{
+    font-weight: 20px;
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: left;
+    justify-content: center;
+    padding:0;
+}
+.plans{
+    margin:20px;
+    /* background-color: #000; */
+    padding: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.plan{
+    background-color: #1a1a1a;
+    padding:30px;
+    width:200px;
+    border-radius: 20px;
+    position:relative;
+    box-shadow: 0 10px 20px #00ff84;
+    margin:50px;
+    transition: all 0.5s ease-in-out;
+}
+.plan:hover{
+    transform: translateY(-10px);
+}
+.plan h2{
+    color:#00ff84;
+    margin-bottom: 10px;
+}
+.plan p span{
+    color:rgb(233, 233, 238);
+    margin:auto;
+    font:bold;
+}
+
+button{
+    background-color: #00ff84;
+    color:#000;
+    padding:10px 20px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.5s ease-in-out;
+}
+button:hover{
+    background-color:#0d6107
+}
+
